@@ -1042,7 +1042,7 @@ layer {
   bottom: "resx6_add"
   top: "resx7_conv1"
   convolution_param {
-    num_output: 144
+    num_output: 192
     kernel_size: 1
     stride: 1
     pad: 0
@@ -1097,7 +1097,7 @@ layer {
   bottom: "resx7_conv1"
   top: "resx7_conv2"
   convolution_param {
-    num_output: 144
+    num_output: 192
     kernel_size: 3
     stride: 1
     pad: 1
@@ -2190,7 +2190,7 @@ layer {
   bottom: "resx13_add"
   top: "resx14_conv1"
   convolution_param {
-    num_output: 384
+    num_output: 576
     kernel_size: 1
     stride: 1
     pad: 0
@@ -2245,7 +2245,7 @@ layer {
   bottom: "resx14_conv1"
   top: "resx14_conv2"
   convolution_param {
-    num_output: 384
+    num_output: 576
     kernel_size: 3
     stride: 2
     pad: 1
